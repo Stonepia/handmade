@@ -4,47 +4,82 @@ permalink: /docs/home/
 redirect_from: /docs/index.html
 ---
 
+This is just a personally Notebook of HandMade Hero Project.I will try to illustrate what I have learned concretely.
+I am really hoping to find more people who can help me to make this note more complete.
+
+**Docs** are collections of pages in docs/_docs folder. They are typically organized by different topics and basically follows the timeline.
+
+**Blogs** are some fragmented topics. The blogs posts are just organized by timestamp.
+
+You can also find history source file in `history` folder.
+<br>
+<br>
 ## Getting started
 
-[GitHub Pages](https://pages.github.com) can automatically generate and serve the website for you.
-Let's say you have a username/organisation `my-org` and project `my-proj`; if you locate Jekyll source under `docs` folder of master branch in your repo `github.com/my-org/my-proj`, the website will be served on `my-org.github.io/my-proj`.
-The good thing about coupling your documentation with the source repo is, whenever you merge features with regarding content to master branch, it will also be published on the webpage instantly.
+### Edit and Debug using Visual Studio
 
-1. Just [download the source](https://github.com/aksakalli/jekyll-doc-theme/archive/gh-pages.zip) into your repo under `docs` folder.
-2. Edit site settings in  `_config.yml` file according to your project. !!! `baseurl` should be your website's relative URI like `/my-proj` !!!
-3. Replace `favicon.ico` and `img/logonav.png` with your own logo.
+In the video course, you may find that Casey types really fast. So here is a brief cheatsheet of visual studio. Hope that this can help you to get your pace with Casey.
 
-## Writing content
 
-### Docs
+|Edit Operation| Key|
+| ----- | ----- |
+| Word Left | Ctrl+Left|
+| Word Right|Ctrl+ Right|
+|Quick Actions|Ctrl+.|
+|Go To Definition| F12|
+|Go To Declaration|Ctrl+F12|
+|Go To Next Location|F8|
+|Line Cut|Ctrl+L|
+|Line Delete|Ctrl+Shift+L|
+|Line Start|Home|
+|Line End|End|
+|Move Line Up|Alt+Up|
+|Move Line Down|Alt+Down|
+|Remove Row|Ctrl + Del|
+|Previous Highlighted Reference|Ctrl+Shift+Up|
+|Quick Info|Ctrl+K,Ctrl+I|
+|Select To Last Go Back|Ctrl+=|
+|Navigate Back|Ctrl+-|
+|Line Start Extend Column|Shift+Alt+End|
+|Multiple Selection|Alt+ Mouse|
+|View Call Hierarchy|Ctrl+K,Ctrl+T|
 
-Docs are [collections](https://jekyllrb.com/docs/collections/) of pages stored under `_docs` folder. To create a new page:
 
-**1.** Create a new Markdown as `_docs/my-page.md` and write [front matter](https://jekyllrb.com/docs/frontmatter/) & content such as:
 
-```
----
-title: My Page
-permalink: /docs/my-page/
----
+|Build Operation| Key|
+|---|---|
+|Build Solution|Ctrl+Shift+B|
+|Run Code Analysison Solution|Alt+F11|
 
-Hello World!
-```
 
-**2.** Add the pagename to `_data/docs.yml` file in order to list in docs navigation panel:
+|Debug Operation| Key|
+|---|---|
+|Start|F5|
+|Apply Code Changes|Alt+F10|
+|Toggle Breakpoint| F9|
+|Go To Disassembley|Alt+G|
+|Step Over|F10|
+|Step Into|F11|
 
-```
-- title: My Group Title
-  docs:
-  - my-page
-```
 
-### Blog posts
+#### Others
+While Debugging, you may add some parameters or arguments in `Watch` Window.This can help you to get some useful information. In Viusal Studio 2017 ,when you toggled a breakpoint, you may also find useful information at the end of each line.  
 
-Add a new Markdown file such as `2017-05-09-my-post.md` and write the content similar to other post examples.
+You may also find that it's useful to keep track of the `Autos` Window. 
 
-### Pages
 
-The homepage is located under `index.html` file. You can change the content or design completely different welcome page for your taste. (You can use [bootstrap components](http://getbootstrap.com/components/))
+## Starting a Project
+If you want to just build a project using Visual Studio. You can create a project by New -> Project -> Visual C++ -> Empty Project.  
 
-In order to add a new page, create a new `.html` or `.md` (markdown) file under root directory and link it in `_includes/topnav.html`.
+As for `includes`  or `build.bat` ,you may edit it from **Solution Explorer**'s property. 
+
+
+
+<br>
+<br>
+## Contributing to this Notebook
+
+Both the `docs` and the `blogs` are written in Markdown syntax. The `docs` are located in the docs/_docs folder and the `blogs` are located in docs/_posts folder. If you have something to add, feel free to open a pull request.
+
+You can also leave comments at the bottom of each docs.
+

@@ -62,6 +62,7 @@ Win32LoadXInput(void)
 	}
 }
 
+
 internal win32_window_dimension
 Win32GetWindowDimension(HWND Window)
 {
@@ -75,9 +76,8 @@ Win32GetWindowDimension(HWND Window)
 }
 
 
-
 internal void
-RenderWeirdGradient(win32_offscreen_buffer *Buffer, int XOffset, int YOffset)
+RenderWeirdGradient(win32_offscreen_buffer *Buffer,int XOffset, int YOffset)
 {
 	int Width = Buffer->Width;
 	int Height = Buffer->Height;
