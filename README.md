@@ -1,6 +1,6 @@
-# Jekyll Doc Theme
+# HandMade Notes
 
-Go to [the website](https://aksakalli.github.io/jekyll-doc-theme/) for detailed information and demo.
+This brach is just for GitHub Pages. 
 
 ## Running locally
 
