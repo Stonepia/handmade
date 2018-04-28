@@ -1,6 +1,7 @@
 ---
 title: Start the first Program
 permalink: /docs/firstProgram/
+comments: on
 ---
 ---
 ## Brief Summary
