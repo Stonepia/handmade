@@ -216,3 +216,6 @@ We have calculated how many bytes a row have.And there are extra padding bytes, 
 ![Padding and Image](https://msdn.microsoft.com/dynimg/IC156482.gif)
  Stride is also called pitch.The padding bytes affect how the image is stored in memory, but do not affect how the image is displayed.
 
+
+---
+By now we have reached the day 005. You may find the **day005.cpp** in history folder, and thank you for your reading.
