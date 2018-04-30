@@ -111,7 +111,7 @@ Win32InitDSound(HWND Window, int32 SamplesPerSecond, int32 BufferSize)
 				LPDIRECTSOUNDBUFFER PrimaryBuffer;
 				if (SUCCEEDED(DirectSound->CreateSoundBuffer(&BufferDescription, &PrimaryBuffer, 0)))
 				{
-					if (SUCCEEDED(PrimaryBuffer->SetFormat(&WaveFormat);))
+					if (SUCCEEDED(PrimaryBuffer->SetFormat(&WaveFormat)))
 					{
 						OutputDebugStringA("Primary Buffer format was set\n");
 					}
