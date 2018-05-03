@@ -1,5 +1,5 @@
 ---
-title: Add Keyboard Control
+title: Play a Square Wave
 permalink: /docs/day7_8/
 ---
 ---
@@ -283,3 +283,8 @@ if (!SoundIsPlaying)
 }
 
 {% endhighlight %}
+
+
+
+---
+By now we have reached the day 008. You may find the **day008.cpp** in history folder, and thank you for your reading.
