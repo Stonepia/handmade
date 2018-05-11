@@ -12,7 +12,7 @@ This covers **day007** and **day008**, it uses DirectSound API to add a square w
 DirectSound works off sound buffers. Microsoft DirectSound buffer objects control the delivery of waveform data from source to a destination.For most buffers, the destination is a mixing engine called the **primary buffer**. From the primary buffer, the data goes to the hardware that converts digital samples to sound waves. And the source might be a synthesizer, another buffer, a WAV file, or a resource.  
 We use the **secondary buffer** to hold our audio data.You can have as many secondary sound buffer as you like.
 
-![DirectSoundFig](https://github.com/Stonepia/handmade/blob/gh-pages/img/DocsImg/DirectSoundFig.gif)
+![DirectSoundFig](../../img/DocsImg/DirectSoundFig.gif)
 
 
 
